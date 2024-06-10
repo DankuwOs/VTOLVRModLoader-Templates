@@ -1,0 +1,1 @@
+Template project for creating a VTOL VR ModLoader Mod.

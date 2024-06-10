@@ -1,0 +1,73 @@
+{
+  "author": "Danku",
+  "name": "Vtol Mod Template",
+  "description": "A template project doing template stuff.",
+  "identity": "VtolVRModLoaderTemplate",
+  "shortName": "vtolmodtemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "VtolModTemplate",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0"
+        },
+        {
+          "choice": "net7.0"
+        },
+        {
+          "choice": "net481"
+        },
+        {
+          "choice": "net472"
+        },
+        {
+          "choice": "net462"
+        },
+        {
+          "choice": "netstandard2.1"
+        },
+        {
+          "choice": "netstandard2.0"
+        }
+      ],
+      "defaultValue": "net472"
+    },
+    "Harmony ID":
+    {
+      "type": "parameter",
+      "defaultValue": "name-modname",
+      "replaces": "name-modname"
+    },
+    "VTOL VR Path":
+    {
+      "type": "parameter",
+      "defaultValue": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VTOL VR",
+      "replaces": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VTOL VR"
+    },
+    "Mod Title":
+    {
+      "type": "parameter",
+      "defaultValue": "Vtol Mod Title",
+      "replaces": "VTOLMODTITLE"
+    },
+    "Mod Description":
+    {
+      "type": "parameter",
+      "defaultValue": "Vtol Mod Description",
+      "replaces": "VTOLMODDESCRIPTION"
+    },
+    "Mod Image URL":
+    {
+      "type": "parameter",
+      "defaultValue": "https://vtolvr-mods.com/static/img/Logo.png",
+      "replaces": "VTOLMODIMAGE"
+    }
+  }
+}

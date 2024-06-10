@@ -1,0 +1,11 @@
+﻿{
+  "Title": "VTOLMODTITLE",
+  "Description": "VTOLMODDESCRIPTION",
+  "PreviewImageUrl": "VTOLMODIMAGE",
+  "MetaData": {
+    "DllName": "VtolModTemplate.dll",
+    "AllowLoadOnStart": true,
+    "ShowOnMainList": true,
+    "DllHash": ""
+  }
+}
