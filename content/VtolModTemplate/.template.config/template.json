@@ -16,12 +16,6 @@
       "datatype": "choice",
       "choices": [
         {
-          "choice": "net8.0"
-        },
-        {
-          "choice": "net7.0"
-        },
-        {
           "choice": "net481"
         },
         {
@@ -42,8 +36,8 @@
     "Harmony ID":
     {
       "type": "parameter",
-      "defaultValue": "name-modname",
-      "replaces": "name-modname"
+      "defaultValue": "name.modname",
+      "replaces": "name.modname"
     },
     "VTOL VR Path":
     {

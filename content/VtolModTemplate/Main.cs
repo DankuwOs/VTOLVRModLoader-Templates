@@ -5,7 +5,7 @@ using ModLoader.Framework.Attributes;
 
 namespace VtolModTemplate;
 
-[ItemId("name-modname")] // Harmony ID for your mod, make sure this is unique
+[ItemId("name.modname")] // Harmony ID for your mod, make sure this is unique
 public class Main : VtolMod
 {
     public string ModFolder;
