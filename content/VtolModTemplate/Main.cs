@@ -1,4 +1,5 @@
 ﻿global using static VtolModTemplate.Logger;
+using System.IO;
 using System.Reflection;
 using ModLoader.Framework;
 using ModLoader.Framework.Attributes;
@@ -12,7 +13,7 @@ public class Main : VtolMod
 
     private void Awake()
     {
-        ModFolder = Assembly.GetExecutingAssembly().Location;
+        ModFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
         Log($"Awake at {ModFolder}");
     }
 
