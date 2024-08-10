@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <OutputType>Library</OutputType>
@@ -8,48 +8,59 @@
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\@Mod Loader\Managed\0Harmony.dll</HintPath>
-    </Reference>
-    <Reference Include="Mod Loader">
-      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\@Mod Loader\Managed\Mod Loader.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="ModLoader.Framework">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\@Mod Loader\Managed\ModLoader.Framework.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="SteamQueries.Models">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\@Mod Loader\Managed\SteamQueries.Models.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Assembly-CSharp" Publicize="True">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>false</Private>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VTOL VR\VTOLVR_Data\Managed\Valve.Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
