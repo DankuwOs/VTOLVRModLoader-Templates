@@ -20,10 +20,4 @@ public class Logger
     {
         Debug.LogError($"[{ModName}] [ERROR]: {message.ToString()}");
     }
-    
-    // Add the #if yourself ierdna! Add the if(debuggydetailer) yourself ierdna! /ᐠ｡ꞈ｡ᐟ\ mieowdna
-    public static void LogDetail(object message)
-    {
-        Debug.Log($"[{ModName}] [DETAIL]: {message.ToString()}");
-    }
 }
