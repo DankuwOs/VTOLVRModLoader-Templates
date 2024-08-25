@@ -1,4 +1,5 @@
 ﻿{
+  "$schema": "https://gitlab.com/vtolvr-mods/ModLoader/-/raw/release/schema.json",
   "Title": "VTOLMODTITLE",
   "Description": "VTOLMODDESCRIPTION",
   "PreviewImageUrl": "VTOLMODIMAGE",
