@@ -30,31 +30,31 @@
       ],
       "defaultValue": "netstandard2.0"
     },
-    "Harmony ID":
+    "HarmonyID":
     {
       "type": "parameter",
       "defaultValue": "name.modname",
       "replaces": "name.modname"
     },
-    "VTOL VR Path":
+    "VTOLVRPath":
     {
       "type": "parameter",
       "defaultValue": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VTOL VR",
       "replaces": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\VTOL VR"
     },
-    "Mod Title":
+    "ModTitle":
     {
       "type": "parameter",
       "defaultValue": "Vtol Mod Title",
       "replaces": "VTOLMODTITLE"
     },
-    "Mod Description":
+    "ModDescription":
     {
       "type": "parameter",
       "defaultValue": "Vtol Mod Description",
       "replaces": "VTOLMODDESCRIPTION"
     },
-    "Mod Image URL":
+    "ModImageURL":
     {
       "type": "parameter",
       "defaultValue": "https://vtolvr-mods.com/static/img/Logo.png",
