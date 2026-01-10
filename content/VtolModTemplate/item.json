@@ -3,6 +3,8 @@
   "Title": "VTOLMODTITLE",
   "Description": "VTOLMODDESCRIPTION",
   "PreviewImageUrl": "VTOLMODIMAGE",
+  "Tags": [],
+  "PublishFieldId": 0,
   "MetaData": {
     "DllName": "VtolModTemplate.dll",
     "AllowLoadOnStart": true,
