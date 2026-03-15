@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace VtolModTemplate;
+namespace VtolModTemplate.Main;
 
 public class Logger
 {

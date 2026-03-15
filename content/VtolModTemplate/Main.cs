@@ -1,10 +1,10 @@
-﻿global using static VtolModTemplate.Logger;
+﻿global using static VtolModTemplate.Main.Logger;
 using System.IO;
 using System.Reflection;
 using ModLoader.Framework;
 using ModLoader.Framework.Attributes;
 
-namespace VtolModTemplate;
+namespace VtolModTemplate.Main;
 
 [ItemId("name.modname")] // Harmony ID for your mod, make sure this is unique
 public class Main : VtolMod
